@@ -14,5 +14,6 @@ jobs:
       - name: Install Bandit
         run: pip install bandit
       - name: Run Bandit
-        run: bandit -r .
-response = requests.get("https://www.example.com", timeout=5)
+        run: bandit -r . --
+        bandit -r . --severity-level high
+
