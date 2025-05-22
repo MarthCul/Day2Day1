@@ -15,3 +15,4 @@ jobs:
         run: pip install bandit
       - name: Run Bandit
         run: bandit -r .
+response = requests.get("https://www.example.com", timeout=5)
